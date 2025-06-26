@@ -9,7 +9,6 @@ run(
     deployment_name='gpt-4o-2024-08-06',
     print_only_content=True,
     # TODO:
-    #  1. Provide your `api_key`
-    #  2. Use `temperature` parameter with value in range from 0.0 to 1.0!
-    #  2.1. Use `temperature` parameter with value 2.1 and check what happens
+    #  Use `temperature` parameter with value in range from 0.0 to 1.0!
+    #  (Optional) Use `temperature` parameter with value 2.1 and check what happens
 )

@@ -9,7 +9,6 @@ DIAL_ENDPOINT = "https://ai-proxy.lab.epam.com/openai/deployments/{model}/chat/c
 
 def run(
         deployment_name: str,
-        api_key: str,
         print_request: bool = True,
         print_only_content: bool = False,
         **kwargs
@@ -17,7 +16,6 @@ def run(
     client = DialClient(
         endpoint=DIAL_ENDPOINT,
         deployment_name=deployment_name,
-        api_key=api_key,
     )
     conversation = Conversation()
     conversation.add_message(Message(Role.SYSTEM, DEFAULT_SYSTEM_PROMPT))

@@ -1,4 +1,5 @@
 import json
+import os
 
 import requests
 
@@ -10,7 +11,8 @@ class DialClient:
     _endpoint: str
     _api_key: str
 
-    def __init__(self, endpoint: str, deployment_name: str, api_key: str):
+    def __init__(self, endpoint: str, deployment_name: str):
+        api_key = os.getenv('DIAL_API_KEY', '')
         if not api_key or api_key.strip() == "":
             raise ValueError("API key cannot be null or empty")
 

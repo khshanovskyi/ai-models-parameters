@@ -13,7 +13,6 @@ from task.app.main import run
 
 run(
     deployment_name='INSERT_DEPLOYMENT_NAME',
-    api_key='YOUR_API_KEY',
     print_request=False, # Switch to False if you do not want to see the request in console
     print_only_content=False, # Switch to True if you want to see only content from response
 )

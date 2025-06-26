@@ -11,10 +11,9 @@ run(
     deployment_name='gpt-4o-2024-05-13',
     print_only_content=True,
     # TODO:
-    #  1. Provide your `api_key`
-    #  2. Use `stop` parameter with value "\n\n"
-    #  3. Use `stop` parameter with values ["**Embedding Layer**", "**Transformer Blocks**", "**Training**"]
-    #  4. Optional: Set `print_only_content` as False to see the full JSON and what is the `finish_reason`
+    #  1. Use `stop` parameter with value "\n\n"
+    #  2. Use `stop` parameter with values ["**Embedding Layer**", "**Transformer Blocks**", "**Training**"]
+    #  3. Optional: Set `print_only_content` as False to see the full JSON and what is the `finish_reason`
 )
 
 # With `stop` parameter we can stop content generation. It can be used for some policies/guardrails. For instance,

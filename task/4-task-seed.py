@@ -11,9 +11,8 @@ from task.app.main import run
 run(
     deployment_name='anthropic.claude-v3-5-sonnet-v1',
     # TODO:
-    #  1. Provide your `api_key`
-    #  2. Use `seed` parameter with value 42 (or whatever you want)
-    #  3. Use `n` parameter with value 5
+    #  1. Use `seed` parameter with value 42 (or whatever you want)
+    #  2. Use `n` parameter with value 5
 )
 
 # Check the content in choices. The expected result is that in almost all choices the result will be the same.

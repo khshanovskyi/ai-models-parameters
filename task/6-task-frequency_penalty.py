@@ -12,8 +12,7 @@ run(
     deployment_name='gemini-2.5-pro-preview-03-25',
     print_only_content=True,
     # TODO:
-    #  1. Provide your `api_key`
-    #  2. Use `frequency_penalty` parameter with different range (-2.0 to 2.0).
+    #  Use `frequency_penalty` parameter with different range (-2.0 to 2.0).
 )
 
 # Pay attention that when we set for `gpt-4o-2024-05-13` frequency_penalty as -2.0 - the request is running too long,
