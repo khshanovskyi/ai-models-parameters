@@ -5,7 +5,7 @@ from task.app.main import run
 #  User massage: What is token when we are working with LLM?
 
 run(
-    deployment_name='gpt-4o-2024-08-06',
+    deployment_name='gpt-4o',
     # TODO:
     #  Use `max_tokens` parameter with value 10
 )

@@ -7,9 +7,12 @@ from task.app.main import run
 #  User massage: What LLMs can do?
 
 # Models to try:
-# - gpt-4o-2024-05-13
-# - anthropic.claude-v3-5-sonnet-v1
-# - gemini-2.5-pro-preview-03-25
+# - gpt-4o
+# - anthropic.claude-v3-haiku
+# - gemini-2.5-pro
+# - rlab-llama-large-Instruct
+# - rlab-qwq-32b
+# - DeepSeek-R1-Distill-Qwen-14B
 
 run(
     deployment_name='INSERT_DEPLOYMENT_NAME',

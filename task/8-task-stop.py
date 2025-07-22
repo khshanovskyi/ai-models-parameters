@@ -8,7 +8,7 @@ from task.app.main import run
 #  User massage: Explain the key components of a Large Language Model architecture
 
 run(
-    deployment_name='gpt-4o-2024-05-13',
+    deployment_name='gpt-4o',
     print_only_content=True,
     # TODO:
     #  1. Use `stop` parameter with value "\n\n"

@@ -47,6 +47,27 @@ By completing these tasks, you will learn:
    ├── 7-task-presence_penalty.py   # 🚧 TODO
    └── 8-task-stop.py               # 🚧 TODO
    ```
+   
+## Available models:
+- gpt-4
+- gpt-4o
+- gpt-4o-mini-2024-07-18
+- gpt-4.1-nano-2025-04-14
+- gpt-4.1-mini-2025-04-14
+- anthropic.claude-v3-haiku
+- rlab-llama-large-Instruct
+- DeepSeek-R1-Distill-Llama-70B-FP8 
+- DeepSeek-R1-Distill-Qwen-14B
+- rlab-qwq-32b
+- gemini-2.0-flash-lite
+- gemini-2.0-flash
+- gemini-2.5-pro
+- gemini-2.5-flash
+- gemini-2.5-flash-lite-preview-06-17
+- claude-3-5-haiku@20241022
+- claude-3-7-sonnet@20250219
+- claude-sonnet-4@20250514
+- deepseek-r1
 
 ## 📝 Your Tasks
 

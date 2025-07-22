@@ -6,9 +6,11 @@ from task.app.main import run
 #  User massage: Why is the snow white?
 
 # Models to try:
-# - gpt-35-turbo-0125
-# - gemini-2.5-pro-preview-03-25
-# - anthropic.claude-v3-5-sonnet-v1
+# - gpt-4o
+# - anthropic.claude-v3-haiku
+# - gemini-2.5-pro
+# - rlab-llama-large-Instruct
+# - DeepSeek-R1-Distill-Qwen-14B
 
 run(
     # TODO:
