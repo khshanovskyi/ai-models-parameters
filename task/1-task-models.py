@@ -7,6 +7,7 @@ from task.app.main import run
 #  User massage: What LLMs can do?
 
 # Models to try:
+# - gpt-4o
 # - anthropic.claude-v3-haiku
 # - gemini-2.5-pro
 # - rlab-llama-large-Instruct
