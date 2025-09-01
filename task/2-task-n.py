@@ -8,8 +8,6 @@ from task.app.main import run
 # Models to try:
 # - anthropic.claude-v3-haiku
 # - gemini-2.5-pro
-# - rlab-llama-large-Instruct
-# - DeepSeek-R1-Distill-Qwen-14B
 
 run(
     # TODO:

@@ -10,9 +10,6 @@ from task.app.main import run
 # - gpt-4o
 # - anthropic.claude-v3-haiku
 # - gemini-2.5-pro
-# - rlab-llama-large-Instruct
-# - rlab-qwq-32b
-# - DeepSeek-R1-Distill-Qwen-14B
 
 run(
     deployment_name='INSERT_DEPLOYMENT_NAME',
